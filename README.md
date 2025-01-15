@@ -1,3 +1,9 @@
+# 최종변경 2025-01-15
+- 개인용 나스서버로 DB 옮기면서 SQL버전 5.0.3으로 내리고
+- with절, rownum() 호환불가로인해 SQL 쿼리 수정
+- 개인깃으로 파일 이동
+- 원주소 [https://github.com/Metazoans/natureblend] 브렌치 PHY 참조
+
 # 프로젝트명 : NATUREBLEND
 
 ## 개요
