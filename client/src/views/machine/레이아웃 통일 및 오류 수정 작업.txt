@@ -1,0 +1,55 @@
+
+<최우선>
+
+<추가>
+
+
+========================================================================================================================================
+<작업중>
+
+
+
+
+
+
+========================================================================================================================================
+<완료 내역>
+
+
+
+
+<추가 작업>
+
+
+
+
+
+========================================================================================================================================
+
+
+        :noRowsOverlayComponent="noRowsOverlayComponent"
+
+
+    <div style="display: none">
+        <CustomNoRowsOverlay/>
+    </div>
+
+
+import CustomNoRowsOverlay from "@/views/natureBlendComponents/grid/noDataMsg.vue";
+
+
+  components: {
+    CustomNoRowsOverlay,
+  },
+
+      noRowsOverlayComponent: 'CustomNoRowsOverlay',
+
+
+placeholder="🔍"
+
+
+input::placeholder {
+  text-align: right;
+}
+
+

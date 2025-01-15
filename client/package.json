@@ -1,0 +1,62 @@
+{
+  "name": "vue-material-dashboard-2",
+  "version": "3.1.0",
+  "private": true,
+  "author": "Creative Tim",
+  "license": "SEE LICENSE IN <https://www.creative-tim.com/license>",
+  "description": "VueJS version of Material Dashboard 2 by Creative Tim",
+  "homepage": "https://demos.creative-tim.com/vue-material-dashboard-2/",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/vue-material-dashboard-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/ct-vue-material-dashboard-2.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "cross-env CI=false cross-env PUBLIC_URL=/ vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ag-grid-community/core": "^32.3.3",
+    "@ag-grid-community/vue3": "^32.3.3",
+    "@kyvg/vue3-notification": "^3.4.1",
+    "@popperjs/core": "2.11.8",
+    "@vue/compat": "^3.5.13",
+    "ag-grid-community": "^32.3.3",
+    "ag-grid-vue3": "^32.3.3",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "chart.js": "4.4.0",
+    "core-js": "3.33.0",
+    "flatpickr": "^4.6.13",
+    "path": "^0.12.7",
+    "vue": "3.3.4",
+    "vue-flatpickr-component": "^11.0.5",
+    "vue-router": "4.2.5",
+    "vue3-datepicker": "^0.4.0",
+    "vuex": "4.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.22.15",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "3.3.4",
+    "@vue/eslint-config-prettier": "8.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "8.51.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-vue": "9.17.0",
+    "prettier": "3.0.3",
+    "sass": "1.69.3",
+    "sass-loader": "13.3.2"
+  },
+  "overrides": {
+    "consolidate": "1.0.1"
+  }
+}
